@@ -2,7 +2,7 @@ import { cn } from "@/utils/cn";
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
+type Props = { iconName: string };
 
 export default function WeatherIcon(
   props: React.HTMLProps<HTMLDivElement> & { iconName: string }

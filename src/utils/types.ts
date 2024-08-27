@@ -90,3 +90,15 @@ export interface WeatherDetailsProps{
   sunrise: string;
   sunset: string;
 }
+
+export interface ForcastWeatherDetailsProps extends WeatherDetailsProps{
+  weatherIcon: string;
+  date: string;
+  day: string;
+  feels_like: number;
+  temp: number;
+  temp_min: number;
+  temp_max: number;
+  description: string;
+}
+
